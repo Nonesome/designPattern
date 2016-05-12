@@ -1,0 +1,44 @@
+.N_dialog_mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0, .6);
+}
+
+.N_dialog {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    width: 360px;
+    padding: 0;
+    margin-left: -180px;
+    background: #fff;
+    color: #122b40;
+    text-align: left;
+}
+
+.N_dialog_title {
+    padding: 5px 0 5px 5px;
+}
+
+.N_dialog_content {
+    padding: 5px 10px;
+}
+
+.N_dialog_foot {
+    display: flex;
+    display: -webkit-flex;
+}
+
+.N_dialog_foot .N_dialog_btn {
+    display: inline-block;
+    flex: 1;
+    -webkit-flex: 1;
+    padding: 5px 0;
+    border: 1px solid #eee;
+    text-align: center;
+    font-size: 24px;
+    color: #122b40;
+}
